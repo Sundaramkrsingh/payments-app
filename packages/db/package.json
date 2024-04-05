@@ -1,0 +1,19 @@
+{
+  "name": "@repo/db",
+  "version": "0.0.0",
+  "dependencies": {
+    "next-auth": "^4.24.7"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.12.0",
+    "i": "^0.3.7",
+    "npm": "^10.5.0",
+    "prisma": "^5.12.0"
+  },
+  "exports": {
+    "./client": "./src/index.ts"
+  }
+}
