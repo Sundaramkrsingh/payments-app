@@ -1,5 +1,4 @@
 import SendCard from "../../components/SendCard";
-import P2pTransactions from "../../components/p2pTxnsCard";
 
 export default function() {
 
