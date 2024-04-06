@@ -28,7 +28,7 @@ export default function() {
                 Bank
             </div>
             <Select onSelect={(value) => {
-                setRedirectURL(SUPPORTED_BANKS.find(x => x.name === value)?.redirectURL || "")
+                setRedirectURL(SUPPORTED_BANKS.find(x => x.name === value)?.redirectURL)
                 setProvider(SUPPORTED_BANKS.find(x => x.name === value)?.name || "")
             }} options={SUPPORTED_BANKS.map(x => ({
                 key: x.name,
