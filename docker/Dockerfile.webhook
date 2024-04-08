@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 COPY package.json package-lock.json turbo.json tsconfig.json ./
 
-COPY apps ./apps/bank-webhook
+COPY apps ./apps
 COPY packages ./packages
 
 # Install dependencies
